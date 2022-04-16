@@ -1,0 +1,44 @@
+React
+04/08/2022
+
+npx create-react-app ./
+npm install react-icons
+Vscode-icon
+https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/753801/
+
+
+
+Create new file index.jsx under components and containers and export by nam so we can import all the components in one line.
+
+rafce to create skeleton quicker
+
+Use index.css to store all variable that can be used in our codes. (import it in index.js)
+
+box-sizing: border-box;
+The box-sizing property allows us to include the padding and border in an element's total width and height.
+=> With same width and height, they will have same siize
+
+04/09/2022
+
+https://angrytools.com/gradient/
+tools to set gradient
+
+https://animista.net/ 
+Find different animations
+
+//BEM -> Block Element Modifier : naming convention
+
+CSS :
+AND
+使用 AND 必須要所有條件皆滿足，下面的例子在「螢幕」大小介於「200px~300px」之間時，字體會是紅色 50px。( 從這個例子可以很明顯觀察到，type 不用加上括號，而 features 要用括號包覆 )
+
+CSS Flex : 
+https://medium.com/enjoy-life-enjoy-coding/css-%E6%89%80%E4%BB%A5%E6%88%91%E8%AA%AA%E9%82%A3%E5%80%8B%E7%89%88%E8%83%BD%E4%B8%8D%E8%83%BD%E5%A5%BD%E5%88%87%E4%B8%80%E9%BB%9E-flex-%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95-e68cc2906995
+
+flex : 1  (Shrink in its contianer)
+
+justify-content: space-between; 
+/* Distribute items evenly
+The first item is flush with the start,
+the last is flush with the end */
+
