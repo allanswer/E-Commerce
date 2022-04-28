@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.e43b5a1b.css",
-    "main.js": "/react-gh-pages/static/js/main.f12896ca.js",
-    "static/media/sneaker1.png": "/react-gh-pages/static/media/sneaker1.429c869ec1c749312769.png",
-    "static/media/nike.png": "/react-gh-pages/static/media/nike.641d2afb274c8085f485.png",
-    "static/media/ua.png": "/react-gh-pages/static/media/ua.5994a9fe2a730581c2b6.png",
-    "static/media/jordan.png": "/react-gh-pages/static/media/jordan.3da78a559e206386d11f.png",
-    "static/media/adidas.png": "/react-gh-pages/static/media/adidas.92888ee31d6d4681f381.png",
-    "static/media/newbalance.png": "/react-gh-pages/static/media/newbalance.cfff1494fd3073deb2d5.png",
-    "static/media/people.png": "/react-gh-pages/static/media/people.5cd2d6fbcd48bd63f106.png",
-    "static/media/logo.svg": "/react-gh-pages/static/media/logo.7ac9ec433e8388e70c0ecbc296acfe76.svg",
-    "index.html": "/react-gh-pages/index.html",
-    "main.e43b5a1b.css.map": "/react-gh-pages/static/css/main.e43b5a1b.css.map",
-    "main.f12896ca.js.map": "/react-gh-pages/static/js/main.f12896ca.js.map"
+    "main.css": "/static/css/main.e43b5a1b.css",
+    "main.js": "/static/js/main.d2ef9a2c.js",
+    "static/media/sneaker1.png": "/static/media/sneaker1.429c869ec1c749312769.png",
+    "static/media/nike.png": "/static/media/nike.641d2afb274c8085f485.png",
+    "static/media/ua.png": "/static/media/ua.5994a9fe2a730581c2b6.png",
+    "static/media/jordan.png": "/static/media/jordan.3da78a559e206386d11f.png",
+    "static/media/adidas.png": "/static/media/adidas.92888ee31d6d4681f381.png",
+    "static/media/newbalance.png": "/static/media/newbalance.cfff1494fd3073deb2d5.png",
+    "static/media/people.png": "/static/media/people.5cd2d6fbcd48bd63f106.png",
+    "static/media/logo.svg": "/static/media/logo.7ac9ec433e8388e70c0ecbc296acfe76.svg",
+    "index.html": "/index.html",
+    "main.e43b5a1b.css.map": "/static/css/main.e43b5a1b.css.map",
+    "main.d2ef9a2c.js.map": "/static/js/main.d2ef9a2c.js.map"
   },
   "entrypoints": [
     "static/css/main.e43b5a1b.css",
-    "static/js/main.f12896ca.js"
+    "static/js/main.d2ef9a2c.js"
   ]
 }
