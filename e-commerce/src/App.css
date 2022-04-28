@@ -1,9 +1,43 @@
-.body {
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
     background: var(--color-bg);
 }
 .gradient__bg {    
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 21%, rgba(5,3,69,1) 43%, rgba(9,9,121,1) 76%, rgba(0,212,255,1) 100%);
+    /* ff 3.6+ */
+    background:-moz-linear-gradient( 110.4deg,  rgba(201,221,162,1) 2.5%, rgba(249,223,130,1) 37.2%, rgba(97,169,210,1) 66.4%, rgba(65,87,134,1) 97.6% );
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient( 110.4deg,  rgba(201,221,162,1) 2.5%, rgba(249,223,130,1) 37.2%, rgba(97,169,210,1) 66.4%, rgba(65,87,134,1) 97.6% );
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient( 110.4deg,  rgba(201,221,162,1) 2.5%, rgba(249,223,130,1) 37.2%, rgba(97,169,210,1) 66.4%, rgba(65,87,134,1) 97.6% );
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cadca2', endColorstr='#3400FF', GradientType=0 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient( 110.4deg,  rgba(201,221,162,1) 2.5%, rgba(249,223,130,1) 37.2%, rgba(97,169,210,1) 66.4%, rgba(65,87,134,1) 97.6% );
+
+    /* global 94%+ browsers support */
+    background: linear-gradient( 110.4deg,  rgba(201,221,162,1) 2.5%, rgba(249,223,130,1) 37.2%, rgba(97,169,210,1) 66.4%, rgba(65,87,134,1) 97.6% );
+}
+
+.gradient__text {
+  background: var(--gradient-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+.section__padding {
+  padding: 2rem 4rem;
+}
+.section__margin {
+  margin: 2rem 4rem;
 }
 
 a {

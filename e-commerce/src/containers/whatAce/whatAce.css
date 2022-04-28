@@ -1,0 +1,124 @@
+.whatAce {
+    display: flex;
+    flex-direction: column;
+
+    padding: 2rem;
+     /* ff 3.6+ */
+     background:-moz-linear-gradient(circle, rgba(162,202,220,1) 30%, rgba(245,245,220,1) 69%);
+
+     /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(circle, rgba(162,202,220,1) 30%, rgba(245,245,220,1) 69%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(circle, rgba(162,202,220,1) 30%, rgba(245,245,220,1) 69%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cadca2', endColorstr='#3400FF', GradientType=0 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(circle, rgba(162,202,220,1) 30%, rgba(245,245,220,1) 69%);
+
+    /* global 94%+ browsers support */
+    background: radial-gradient(circle, rgba(162,202,220,1) 30%, rgba(240,240,177,1) 69%);
+
+}
+
+.whatAce-feature {
+    display: flex;
+}
+
+.whatAce-feature .feature__container-text{
+    max-width: 700px;
+}
+
+.whatAce-feature .feature__container{
+    margin: 0;
+}
+
+
+
+
+
+.whatAce-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 4rem 0 2rem;
+}
+
+.whatAce-heading h1 {
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: 800;
+    font-family: var(--font-family);
+    max-width: 510px;
+}
+.whatAce-heading p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--color-subtext);
+    cursor: pointer;
+}
+
+
+.ace-feature_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.ace-feature_container .feature__container {
+    display: unset;
+    flex-direction: column;
+    margin: 1rem;
+    min-width: 210px;
+}
+
+.ace-feature_container .feature__container-text {
+    margin-top: 0.5rem;
+} 
+
+@media screen and (max-width: 850px) { 
+    .whatAce-heading {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0;
+    }
+
+    .whatAce-heading p {
+        margin-top: 1rem;
+    }
+
+
+}
+
+@media screen and (max-width: 650px) {
+    .whatAce-feature .feature__container {
+        flex-direction: column;
+        
+    }
+
+    .whatAce-feature .feature__container {
+        margin-top: 0.5rem;
+    }
+
+    .whatAce-heading h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .ace-feature_container .feature__container-text {
+        margin: 1rem 0;
+        min-width: 100%;
+    }
+}
+
+
+
+
