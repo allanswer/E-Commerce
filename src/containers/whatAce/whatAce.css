@@ -76,6 +76,7 @@
     flex-direction: column;
     margin: 1rem;
     min-width: 210px;
+    flex: 1;
 }
 
 .ace-feature_container .feature__container-text {
