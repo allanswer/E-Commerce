@@ -1,6 +1,6 @@
 import React from 'react';
-import { Navbar, Feature, Brand} from './components';
-import { Header, WhatAce} from './containers';
+import { Navbar, CTA, Brand} from './components';
+import { Header, WhatAce, Features} from './containers';
 import './App.css';
 const App = () => {
   return (
@@ -11,6 +11,8 @@ const App = () => {
       </div>
       <Brand />
       <WhatAce />
+      <Features/>
+      <CTA />
     </div>
   )
 }
